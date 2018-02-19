@@ -239,10 +239,12 @@ j = 0;
 //		}
 //
 //Closing the files
-	fcloseall();
+//	fcloseall();
 
-}]/O statistics serve para obter a média, o num de entrada, o maximo e o mi:cidade, a variancia e o desvio padrão
-} //--------------------------------------------
+}
+
+//O statistics serve para obter a média, o num de entrada, o maximo e o mi:cidade, a variancia e o desvio padrão
+//--------------------------------------------
 void statistic(double *Nx, double *maxvx, double *minvx, double *meanvx, double *variancex, 
 double *devpadx, double *meanqx,double *Ny, double *maxvy, double *minvy, double *meanvy, 
 double *variancey, double *devpady, double *meanqy){

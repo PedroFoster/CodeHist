@@ -286,7 +286,7 @@ void structure_function_file(FILE *out, FILE *fdata, int displ, int size, double
 
 	for(j=0;j<max;j++){
 		for(i=0;i<size;i++){
-			fscanf(fdata,"%f\n",&input[i]);
+			fscanf(fdata,"%lf\n",&input[i]);
 //			input[i]=data[j*size+i];
 			}
 		
